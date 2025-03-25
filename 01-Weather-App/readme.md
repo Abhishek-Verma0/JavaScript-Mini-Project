@@ -25,4 +25,4 @@ A simple weather app that fetches real-time weather data using the OpenWeather A
 2. Click the search button or press **Enter**.  
 3. View real-time weather updates!  
 
-## 📂 Folder Structure  
+
