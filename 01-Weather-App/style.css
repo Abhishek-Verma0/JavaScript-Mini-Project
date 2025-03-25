@@ -113,3 +113,71 @@ body {
     display: none;
     text-align: center;
 }
+
+
+
+
+/* adding responsiveness for mobile devices */
+
+
+
+
+@media (max-width: 480px) {
+  .card {
+    width: 95%;
+    padding: 30px 25px;
+  }
+
+  .search input {
+    height: 50px;
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+
+  .search button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .weather h1 {
+    font-size: 60px;
+  }
+
+  .weather h2 {
+    font-size: 35px;
+  }
+
+  .details {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .col {
+    margin-bottom: 15px;
+  }
+
+  .humidity, .wind {
+    font-size: 24px;
+  }
+}
+
+
+@media (max-width: 450px) {
+  .search {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search input {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .search button {
+    width: 50px;
+    height: 50px;
+  }
+}
